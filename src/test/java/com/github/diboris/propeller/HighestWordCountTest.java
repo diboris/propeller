@@ -21,10 +21,8 @@ public class HighestWordCountTest {
 
     @BeforeClass
     public static void setupClass() {
-        // Configure nice logging in console
         SLF4JBridgeHandler.removeHandlersForRootLogger();
         SLF4JBridgeHandler.install();
-        // Auto-install chrome driver
         ChromeDriverManager.getInstance().setup();
     }
 
